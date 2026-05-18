@@ -1,0 +1,18 @@
+<Module>
+     <Name value="Lowborn Tweaks"/>
+     <Id value="LowbornTweaks"/>
+     <Version value="v1.0.0"/>
+     <DefaultModule value="false"/>
+     <SingleplayerModule value="true"/>
+     <DependedModules>
+       <DependedModule Id="Native"/>
+       <DependedModule Id="Lowborn"/>
+     </DependedModules>
+     <SubModules>
+       <SubModule>
+         <Name value="LowbornTweaks"/>
+         <DLLName value="LowbornTweaks.dll"/>
+         <SubModuleClassType value="LowbornTweaks.SubModule"/>
+       </SubModule>
+     </SubModules>
+   </Module>
