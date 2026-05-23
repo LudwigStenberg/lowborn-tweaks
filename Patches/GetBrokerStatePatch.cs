@@ -18,7 +18,7 @@ namespace LowbornTweaks.Patches
             {
                 brokerState = new RansomBrokerState
                 {
-                    AvailablePrisoners = MBRandom.RandomInt(2, 15), // Increased from 2, 9
+                    AvailablePrisoners = MBRandom.RandomInt(2, 15),
                     NextRestockTime = CampaignTime.Now + CampaignTime.Weeks(1f)
                 };
                 __instance.BrokerData[settlement.StringId] = brokerState;

@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Patches\BuyPrisonersPatch.cs.cs" />
+    <Compile Include="Patches\RansomBrokerBehaviorPatch.cs" />
     <Compile Include="Patches\RecruitPrisonerDialoguePatch.cs" />
     <Compile Include="Patches\RefreshBrokerPatch.cs" />
     <Compile Include="Patches\GetBrokerStatePatch.cs" />
